@@ -1,8 +1,6 @@
-#!/usr/bin/env bash
-
-docker build -t uokereh/multi-client:latest -t uokereh/multi-client:$SHA -f ./client/Dockerfile ./client/
-docker build -t uokereh/multi-server:latest -t uokereh/multi-server:$SHA -f ./server/Dockerfile ./server/
-docekr build -t uokereh/multi-worker:latest -t uokereh/multi-worker:$SHA -f ./worker/Dockerfile ./worker/
+docker build -t uokereh/multi-client:latest -t uokereh/multi-client:$SHA -f ./client/Dockerfile ./client
+docker build -t uokereh/multi-server:latest -t uokereh/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t uokereh/multi-worker:latest -t uokereh/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push uokereh/multi-client:latest
 docker push uokereh/multi-server:latest
