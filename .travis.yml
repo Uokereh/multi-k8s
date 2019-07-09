@@ -17,8 +17,6 @@ before_install:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker build -t uokereh/react-test -f ./client/Dockerfile.dev ./client
 
-script:
-  - docker run uokereh/react-test npm build -- --coverage
 
 deploy:
   provider: script
