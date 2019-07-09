@@ -5,24 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fff5e1d8-0ba0-491f-b31f-5d5099c2a962" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/client-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/database-presistent-volume-claim.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/ingress-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/postgres-cluster-ip-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/postgres-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/redis-cluster-ip-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/redis-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/server-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k8s/worker-deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerrun.aws.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/Dockerfile.dev" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx/default.conf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k8s/ingress-service.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -102,7 +95,6 @@
         <option value="$PROJECT_DIR$/client/src/App.js" />
         <option value="$PROJECT_DIR$/Dockerrun.aws.json" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/k8s/client-deployment.yaml" />
         <option value="$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml" />
         <option value="$PROJECT_DIR$/k8s/server-cluster-ip-service.yaml" />
@@ -114,11 +106,12 @@
         <option value="$PROJECT_DIR$/k8s/worker-deployment.yaml" />
         <option value="$PROJECT_DIR$/k8s/postgres-deployment.yaml" />
         <option value="$PROJECT_DIR$/k8s/ingress-service.yaml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
+    <option name="x" value="121" />
     <option name="y" value="23" />
     <option name="width" value="1400" />
     <option name="height" value="907" />
@@ -137,11 +130,6 @@
             <path>
               <item name="complex" type="b2602c69:ProjectViewProjectNode" />
               <item name="complex" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="complex" type="b2602c69:ProjectViewProjectNode" />
-              <item name="complex" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +204,7 @@
       <workItem from="1562247769091" duration="11919000" />
       <workItem from="1562382006914" duration="11671000" />
       <workItem from="1562569195222" duration="2046000" />
-      <workItem from="1562584086167" duration="13002000" />
+      <workItem from="1562584086167" duration="15676000" />
     </task>
     <task id="LOCAL-00001" summary="travis file and commands to push images to docker hub after test and build completes">
       <created>1562256738737</created>
@@ -488,7 +476,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68409000" />
+    <option name="totallyTimeSpent" value="71083000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -500,7 +488,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="23" width="1400" height="907" extended-state="0" />
+    <frame x="121" y="23" width="1400" height="907" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -517,9 +506,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" show_stripe_button="false" weight="0.32883435" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.32883435" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49558175" weight="0.32883435" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49558175" visible="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49558175" visible="true" weight="0.3190184" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49558175" weight="0.3190184" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50441825" side_tool="true" weight="0.32883435" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Inspection Results" order="13" sideWeight="0.4992636" weight="0.32883435" />
@@ -773,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/k8s/client-cluster-ip-service.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -854,6 +836,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
         </state>
       </provider>
     </entry>
