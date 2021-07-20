@@ -3,7 +3,7 @@
     "express": "*",
     "pg": "*",
     "redis": "*",
-    "cors": "*",
+    "cors": "2.8.5",
     "nodemon": "*",
     "body-parser": "*"
   },
