@@ -4,7 +4,7 @@
     "pg": "*",
     "redis": "*",
     "cors": "*",
-    "nodemon": "*",
+    "nodemon": "1.19.4",
     "body-parser": "*"
   },
   "scripts": {
