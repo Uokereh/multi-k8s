@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "express": "*",
-    "pg": "*",
+    "pg": "7.18.2",
     "redis": "*",
     "cors": "*",
     "nodemon": "*",
