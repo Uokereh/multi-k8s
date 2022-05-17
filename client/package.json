@@ -5,7 +5,7 @@
   "dependencies": {
     "react": "*",
     "react-dom": "*",
-    "react-scripts": "*",
+    "react-scripts": "2.0.0",
     "react-router-dom": "*",
     "axios": "*"
   },
