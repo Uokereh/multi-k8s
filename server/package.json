@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "express": "*",
+    "express": "4.17.3",
     "pg": "*",
     "redis": "*",
     "cors": "*",
     "nodemon": "*",
-    "body-parser": "*"
+    "body-parser": "1.19.2"
   },
   "scripts": {
     "dev": "nodemon",
