@@ -5,8 +5,8 @@
   "dependencies": {
     "react": "*",
     "react-dom": "*",
-    "react-scripts": "*",
-    "react-router-dom": "*",
+    "react-scripts": "2.0.3",
+    "react-router-dom": "6.0.0",
     "axios": "*"
   },
   "scripts": {
