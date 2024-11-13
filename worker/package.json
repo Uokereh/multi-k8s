@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "nodemon": "*",
+    "nodemon": "2.0.3",
     "redis": "*"
   },
   "scripts": {
