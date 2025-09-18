@@ -5,9 +5,9 @@
   "dependencies": {
     "react": "*",
     "react-dom": "*",
-    "react-scripts": "*",
+    "react-scripts": "5.0.0",
     "react-router-dom": "*",
-    "axios": "*"
+    "axios": "1.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
